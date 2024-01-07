@@ -23,7 +23,7 @@ const updateAmount = async () => {
     return;
   } else {
     document.querySelector("#amount").textContent =
-      "Coin not recognised by our API";
+      "Coin not recognised by our API. Please Enter the coin code. Eg: BTC for Bitcoin";
     currency.style.display = "none";
     return;
   }
